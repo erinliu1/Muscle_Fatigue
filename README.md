@@ -1,5 +1,5 @@
-# Real-Time System Structure
-Under Systems folder:
+# `Systems` folder
+Codebase for the Real-Time Online System
 
 ## `main.py`
 - Entry point of the system. Run this script to start the system.
@@ -27,3 +27,14 @@ Under Systems folder:
 - Saves the IMU data as `imu_data.csv`
 - Saves the indices of the segment intervals as `repetitions.csv`
 - Saves the Borg logs as `borg.csv`
+
+# `Data` folder
+
+## `Participants` folder
+Where the participants IMU data, borg data, repetitions data, and basic info data are saved
+
+## `Features Data` folder
+Where the extracted features from the participants data are stored.
+
+# `Scripts` folder
+Scripts for data preprocessing, participant information overview, model training, and example of how to run inference.
