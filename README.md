@@ -1,4 +1,5 @@
 # Real-Time System Structure
+Under Systems folder:
 
 ## `main.py`
 - Entry point of the system. Run this script to start the system.
